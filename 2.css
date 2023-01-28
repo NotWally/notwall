@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  overflow: hidden;
+}
+
+body{
+  background-image: url("bg.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+h1,h2,p{
+  color: black;
+}
+
+p{
+  font-weight: 600;
+}
+
+.all{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0px 25px 0px 25px;
+}
